@@ -1,8 +1,9 @@
 
 # Taskit
+![This App have ears, Start Achieving more in your day-2](https://user-images.githubusercontent.com/116809090/212428022-71267efe-9d16-4b94-b588-4fbfd19c47bf.png)
+
 ![](https://img.shields.io/badge/-Swiftui-red)
 ![](https://img.shields.io/badge/-WatchOS-black)
-![](https://user-images.githubusercontent.com/116809090/212063692-31c5e7c1-d761-4aa7-a830-282db46d7329.png)
 
 **This App have ears 👂**
 **Start Achieving more in your day 🏆**
