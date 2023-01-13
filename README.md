@@ -6,15 +6,15 @@
 ![](https://img.shields.io/badge/-WatchOS-black)
 
 
- <details>
-           <summary> Table of content </summary>
+ 
+  <details><summary> Table of content </summary>
            <p> 1.Our Challenge </p>
            <p> 2.The Solution and Technology </p> 
            <p> 3.look at **Taskit** </p>
            <p> 4.Challenge Summary </p>
-           <p> 5.Developer Team </p>
+           <p> 5.Developer Team </p> </details>
  
-         </details>
+         
 
 
 ## Our Challenge 
