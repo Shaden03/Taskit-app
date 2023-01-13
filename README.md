@@ -4,7 +4,7 @@
 ![](https://img.shields.io/badge/-Swiftui-red)
 ![](https://img.shields.io/badge/-WatchOS-black)
 
-- - - - 
+
 
  
 <details><summary> <p4> Table of content </p4> </summary>
@@ -14,22 +14,22 @@
            <p> 4.Challenge Summary </p>
            <p> 5.Developer Team </p> </details>
  
-         
+- - - -          
 
 
-## Our Challenge 
+> ## Our Challenge 
 Develop  to-do list that is assessable to people with vision problems which help them achieve more 
 
 
 
 > # The Solution and Technology
-## The Solution
+> ## The Solution
  Our solution is **Taskit**, an app that runs on your apple watch
 this app allows the user to add tasks using voice recognition
 no signup is needed 🥳 . Download it and start achieving more
 simple and quick 👏
 
-## Technology Used
+> ## Technology Used
 ### Realm By MongoDB
   
 For storing local data we've used   [**realm By MongoDB**](https://realm.io"realm  "Heading link")
@@ -49,14 +49,14 @@ IOS provides a framework **UserNotfications** called that help developer push lo
 **some resource about UserNotifications**
 - [HackingWithSwift - push Notification ](https://www.hackingwithswift.com/books/ios-swiftui/scheduling-local-notifications)
 - [Apple Developer Resource](https://developer.apple.com/documentation/usernotifications/scheduling_a_notification_locally_from_your_app) 
-## App Demo ⌚️
+> ## App Demo ⌚️
 ### Onboarding 🛬
 
 https://user-images.githubusercontent.com/40645258/212423070-bfc43404-dca8-4bc5-9478-882d18556791.mp4
 
 ![](https://user-images.githubusercontent.com/40645258/212423874-10051bd8-5c57-421f-a053-f5e315f69277.png)
 
-## Main Pages
+### Main Pages
 https://user-images.githubusercontent.com/40645258/212424469-4346d568-ed2e-4b5d-ba45-a60721ee2151.mp4
 
 ![](https://user-images.githubusercontent.com/40645258/212424543-0e268f91-63dd-4a34-ae29-c459e4e514fb.png)
@@ -68,11 +68,11 @@ https://user-images.githubusercontent.com/40645258/212425469-2b4f1b53-f13e-4321-
 ![](https://user-images.githubusercontent.com/40645258/212425169-c5063039-49b5-48f7-b03e-8fe5fc98ab04.png)
 
 
-## Challenge Summary 📝
+> ## Challenge Summary 📝
 ##### Taskit is an application for people with memory,vision problems who needs help to do their daily tasks without forgetting them,so that they feel better about themselves
 
 
-## Developer Team 👩‍💻👩‍💻 🍎
+> ## Developer Team 👩‍💻👩‍💻 🍎
 [**@Duaa**](https://github.com/duaal)
 [**@Shaden**](https://github.com/Shaden03)
 
