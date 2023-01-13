@@ -10,10 +10,10 @@
 <details><summary> <p4> Table of content </p4> </summary>
            <p> 1.Our Challenge </p>
            <p> 2.The Solution and Technology </p> 
-                <p> 1.Download our App </p> 
            <p> 3.App Demo </p>
-           <p> 4.Challenge Summary </p>
-           <p> 5.Developer Team </p> </details>
+           <p> 4.Download Our App</p>
+           <p> 5.Challenge Summary </p>
+           <p> 6.Developer Team </p> </details>
  
 <br>
 <br>
@@ -91,6 +91,10 @@ https://user-images.githubusercontent.com/40645258/212425469-2b4f1b53-f13e-4321-
 ![](https://user-images.githubusercontent.com/40645258/212425169-c5063039-49b5-48f7-b03e-8fe5fc98ab04.png) 
 
 
+<br>
+<br>
+> ## Download Our App 
+[**Click here**]
 <br>
 <br>
 
