@@ -86,7 +86,7 @@ https://user-images.githubusercontent.com/40645258/212424469-4346d568-ed2e-4b5d-
 https://user-images.githubusercontent.com/40645258/212425469-2b4f1b53-f13e-4321-ac5c-425db88efa52.mp4
 
 
-![](https://user-images.githubusercontent.com/40645258/212425169-c5063039-49b5-48f7-b03e-8fe5fc98ab04.png =100x100) 
+![](https://user-images.githubusercontent.com/40645258/212425169-c5063039-49b5-48f7-b03e-8fe5fc98ab04.png) 
 
 
 <br>
