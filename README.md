@@ -37,7 +37,7 @@ simple and quick 👏
 
 * ## Technology Used
 
-### Realm By MongoDB
+   * ### Realm By MongoDB
   
 For storing local data we've used   [**realm By MongoDB**](https://realm.io"realm  "Heading link")
 
@@ -45,7 +45,7 @@ For storing local data we've used   [**realm By MongoDB**](https://realm.io"real
 
 <br>
 
-### So What is Realm ? 🤔
+   * ### So What is Realm ? 🤔
 The Realm is an object and mobile database. It’s a data-storage solution for mobile and web development. A simpler definition would be that the Realm is where your app’s or website’s data is stored and managed. One could say that the Realm mobile database is the perfect replacement for SQLite and Core Data.
 
 Realm offers a database solution for development languages Java, Kotlin, Swift, Obj-C, JavaScript, and .NET. You can use the Swift Package Manager (SPM), CocoaPods, or Carthage to add Realm to your development project. We found that SPM is the quickest and easiest way to get started.
@@ -53,7 +53,7 @@ Realm offers a database solution for development languages Java, Kotlin, Swift, 
 
 <br>
 
-### UserNotifications
+   * ### UserNotifications
 IOS provides a framework **UserNotfications** called that help developer push local notification to the app user
 
 
@@ -67,20 +67,20 @@ IOS provides a framework **UserNotfications** called that help developer push lo
 > ## App Demo ⌚️
 <br>
 
-### Onboarding 🛬
+* ### Onboarding 🛬
 
 https://user-images.githubusercontent.com/40645258/212423070-bfc43404-dca8-4bc5-9478-882d18556791.mp4
 
 ![](https://user-images.githubusercontent.com/40645258/212423874-10051bd8-5c57-421f-a053-f5e315f69277.png)
 <br>
 
-### Main Pages
+* ### Main Pages
 https://user-images.githubusercontent.com/40645258/212424469-4346d568-ed2e-4b5d-ba45-a60721ee2151.mp4
 
 ![](https://user-images.githubusercontent.com/40645258/212424543-0e268f91-63dd-4a34-ae29-c459e4e514fb.png)
 <br>
 
-### This App also Support Arabic
+* ### This App also Support Arabic
 https://user-images.githubusercontent.com/40645258/212425469-2b4f1b53-f13e-4321-ac5c-425db88efa52.mp4
 
 
