@@ -20,7 +20,7 @@
 ## Our Challenge 
 Develop  to-do list that is assessable to people with vision problems which help them achieve more 
 
-- - - - 
+
 
 > # The Solution and Technology
 >> ## The Solution
