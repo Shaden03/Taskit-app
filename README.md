@@ -95,6 +95,8 @@ https://user-images.githubusercontent.com/40645258/212425469-2b4f1b53-f13e-4321-
 
 > ## Challenge Summary 📝
 ##### Taskit is an application for people with memory,vision problems who needs help to do their daily tasks without forgetting them,so that they feel better about themselves
+<img width="1101" alt="Screenshot 1444-06-21 at 2 42 20 AM" src="https://user-images.githubusercontent.com/116809090/212438018-4472e460-b8c9-4633-8708-cb851d5785f1.png">
+
 
 <br>
 <br>
