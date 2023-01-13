@@ -10,7 +10,7 @@
 <details><summary> <p4> Table of content </p4> </summary>
            <p> 1.Our Challenge </p>
            <p> 2.The Solution and Technology </p> 
-           <p> 3.look at Taskit </p>
+           <p> 3.App Demo </p>
            <p> 4.Challenge Summary </p>
            <p> 5.Developer Team </p> </details>
  
@@ -29,8 +29,8 @@ Develop  to-do list that is assessable to people with vision problems which help
 
 > ## The Solution
  Our solution is **Taskit**, an app that runs on your apple watch
-this app allows the user to add tasks using voice recognition
-no signup is needed 🥳 . Download it and start achieving more
+**Taskit** allows the user to add tasks using voice recognition
+no ~~signup~~ is needed 🥳 . Download it and start achieving more
 simple and quick 👏
 
 <br>
