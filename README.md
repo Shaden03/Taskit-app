@@ -5,8 +5,8 @@
 ![](https://img.shields.io/badge/-Swiftui-red)
 ![](https://img.shields.io/badge/-WatchOS-black)
 
-**This App have ears 👂**
-**Start Achieving more in your day 🏆**
+#### This App have ears 👂
+#### Start Achieving more in your day 🏆
 ## Our Challenge 
 Develop  to-do list that is assessable to people with vision problems which help them achieve more 
 
