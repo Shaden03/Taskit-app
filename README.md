@@ -10,7 +10,7 @@
 <details><summary> <p4> Table of content </p4> </summary>
            <p> 1.Our Challenge </p>
            <p> 2.The Solution and Technology </p> 
-                <p>.Download our App </p> 
+                <p> 1.Download our App </p> 
            <p> 3.App Demo </p>
            <p> 4.Challenge Summary </p>
            <p> 5.Developer Team </p> </details>
