@@ -37,7 +37,7 @@ simple and quick 👏
 
 > ## Technology Used
 
-### Realm By MongoDB
+* ### Realm By MongoDB
   
 For storing local data we've used   [**realm By MongoDB**](https://realm.io"realm  "Heading link")
 
@@ -45,7 +45,7 @@ For storing local data we've used   [**realm By MongoDB**](https://realm.io"real
 
 <br>
 
-### So What is Realm ? 🤔
+* ### So What is Realm ? 🤔
 The Realm is an object and mobile database. It’s a data-storage solution for mobile and web development. A simpler definition would be that the Realm is where your app’s or website’s data is stored and managed. One could say that the Realm mobile database is the perfect replacement for SQLite and Core Data.
 
 Realm offers a database solution for development languages Java, Kotlin, Swift, Obj-C, JavaScript, and .NET. You can use the Swift Package Manager (SPM), CocoaPods, or Carthage to add Realm to your development project. We found that SPM is the quickest and easiest way to get started.
@@ -53,7 +53,7 @@ Realm offers a database solution for development languages Java, Kotlin, Swift, 
 
 <br>
 
-### UserNotifications
+*### UserNotifications
 IOS provides a framework **UserNotfications** called that help developer push local notification to the app user
 
 
