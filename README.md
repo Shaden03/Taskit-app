@@ -28,10 +28,10 @@ Develop  to-do list that is assessable to people with vision problems which help
  <br>
 
 > ## The Solution
- Our solution is **Taskit**, an app that runs on your apple watch
-**Taskit** allows the user to add tasks using voice recognition
-no ~~signup~~ is needed 🥳 . Download it and start achieving more
-simple and quick 👏
+ Our solution is **Taskit**, an app that runs on your apple watch<br>
+**Taskit** allows the user to add tasks using voice recognition<br>
+- [x] no ~~signup~~ is needed 🥳<br>
+Download it and start achieving more simple and quick 👏
 
 <br>
 
