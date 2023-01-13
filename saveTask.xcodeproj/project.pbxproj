@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		258E0B4E297023200096A356 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258E0B4D297023200096A356 /* Home.swift */; };
+		258E0B51297024050096A356 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 258E0B53297024050096A356 /* Localizable.strings */; };
+		258E0B5629702C050096A356 /* POP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258E0B5529702C050096A356 /* POP.swift */; };
+		258E0B5829702CA80096A356 /* check.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258E0B5729702CA80096A356 /* check.swift */; };
+		258E0B5A29709AD50096A356 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258E0B5929709AD50096A356 /* RealmManager.swift */; };
+		25D8EADB296ED5F1002CC48F /* saveTask Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 25D8EADA296ED5F1002CC48F /* saveTask Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		25D8EAE0296ED5F1002CC48F /* saveTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D8EADF296ED5F1002CC48F /* saveTaskApp.swift */; };
+		25D8EAE2296ED5F1002CC48F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D8EAE1296ED5F1002CC48F /* ContentView.swift */; };
+		25D8EAE4296ED5F2002CC48F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25D8EAE3296ED5F2002CC48F /* Assets.xcassets */; };
+		25D8EAE7296ED5F2002CC48F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25D8EAE6296ED5F2002CC48F /* Preview Assets.xcassets */; };
+		25D8EAF3296ED72E002CC48F /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 25D8EAF2296ED72E002CC48F /* Realm */; };
+		25D8EAF5296ED72E002CC48F /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 25D8EAF4296ED72E002CC48F /* RealmSwift */; };
+		25D8EAF7296ED7F9002CC48F /* onTimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D8EAF6296ED7F9002CC48F /* onTimeApp.swift */; };
+		25D8EAFA296EDB2E002CC48F /* AddModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D8EAF9296EDB2E002CC48F /* AddModule.swift */; };
+		25D8EAFC296EEAAC002CC48F /* TaskList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D8EAFB296EEAAC002CC48F /* TaskList.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25D8EADC296ED5F1002CC48F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25D8EACE296ED5F1002CC48F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25D8EAD9296ED5F1002CC48F;
+			remoteInfo = "saveTask Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		25D8EAED296ED5F2002CC48F /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				25D8EADB296ED5F1002CC48F /* saveTask Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		258E0B4D297023200096A356 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		258E0B52297024050096A356 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		258E0B54297024060096A356 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		258E0B5529702C050096A356 /* POP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POP.swift; sourceTree = "<group>"; };
+		258E0B5729702CA80096A356 /* check.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = check.swift; sourceTree = "<group>"; };
+		258E0B5929709AD50096A356 /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		25D8EAD4296ED5F1002CC48F /* saveTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = saveTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25D8EADA296ED5F1002CC48F /* saveTask Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "saveTask Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25D8EADF296ED5F1002CC48F /* saveTaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = saveTaskApp.swift; sourceTree = "<group>"; };
+		25D8EAE1296ED5F1002CC48F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		25D8EAE3296ED5F2002CC48F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25D8EAE6296ED5F2002CC48F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		25D8EAF6296ED7F9002CC48F /* onTimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onTimeApp.swift; sourceTree = "<group>"; };
+		25D8EAF9296EDB2E002CC48F /* AddModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddModule.swift; sourceTree = "<group>"; };
+		25D8EAFB296EEAAC002CC48F /* TaskList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskList.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25D8EAD7296ED5F1002CC48F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25D8EAF5296ED72E002CC48F /* RealmSwift in Frameworks */,
+				25D8EAF3296ED72E002CC48F /* Realm in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25D8EACD296ED5F1002CC48F = {
+			isa = PBXGroup;
+			children = (
+				25D8EAF8296EDB1B002CC48F /* Module */,
+				25D8EADE296ED5F1002CC48F /* saveTask Watch App */,
+				25D8EAD5296ED5F1002CC48F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25D8EAD5296ED5F1002CC48F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25D8EAD4296ED5F1002CC48F /* saveTask.app */,
+				25D8EADA296ED5F1002CC48F /* saveTask Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25D8EADE296ED5F1002CC48F /* saveTask Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				25D8EADF296ED5F1002CC48F /* saveTaskApp.swift */,
+				25D8EAE1296ED5F1002CC48F /* ContentView.swift */,
+				25D8EAE3296ED5F2002CC48F /* Assets.xcassets */,
+				25D8EAE5296ED5F2002CC48F /* Preview Content */,
+				25D8EAF6296ED7F9002CC48F /* onTimeApp.swift */,
+				25D8EAFB296EEAAC002CC48F /* TaskList.swift */,
+				258E0B4D297023200096A356 /* Home.swift */,
+				258E0B53297024050096A356 /* Localizable.strings */,
+				258E0B5529702C050096A356 /* POP.swift */,
+				258E0B5729702CA80096A356 /* check.swift */,
+			);
+			path = "saveTask Watch App";
+			sourceTree = "<group>";
+		};
+		25D8EAE5296ED5F2002CC48F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				25D8EAE6296ED5F2002CC48F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		25D8EAF8296EDB1B002CC48F /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				25D8EAF9296EDB2E002CC48F /* AddModule.swift */,
+				258E0B5929709AD50096A356 /* RealmManager.swift */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25D8EAD3296ED5F1002CC48F /* saveTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25D8EAEE296ED5F2002CC48F /* Build configuration list for PBXNativeTarget "saveTask" */;
+			buildPhases = (
+				25D8EAD2296ED5F1002CC48F /* Resources */,
+				25D8EAED296ED5F2002CC48F /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25D8EADD296ED5F1002CC48F /* PBXTargetDependency */,
+			);
+			name = saveTask;
+			productName = saveTask;
+			productReference = 25D8EAD4296ED5F1002CC48F /* saveTask.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		25D8EAD9296ED5F1002CC48F /* saveTask Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25D8EAEA296ED5F2002CC48F /* Build configuration list for PBXNativeTarget "saveTask Watch App" */;
+			buildPhases = (
+				25D8EAD6296ED5F1002CC48F /* Sources */,
+				25D8EAD7296ED5F1002CC48F /* Frameworks */,
+				25D8EAD8296ED5F1002CC48F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "saveTask Watch App";
+			packageProductDependencies = (
+				25D8EAF2296ED72E002CC48F /* Realm */,
+				25D8EAF4296ED72E002CC48F /* RealmSwift */,
+			);
+			productName = "saveTask Watch App";
+			productReference = 25D8EADA296ED5F1002CC48F /* saveTask Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25D8EACE296ED5F1002CC48F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					25D8EAD3296ED5F1002CC48F = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					25D8EAD9296ED5F1002CC48F = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 25D8EAD1296ED5F1002CC48F /* Build configuration list for PBXProject "saveTask" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ar,
+			);
+			mainGroup = 25D8EACD296ED5F1002CC48F;
+			packageReferences = (
+				25D8EAF1296ED72E002CC48F /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
+			productRefGroup = 25D8EAD5296ED5F1002CC48F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25D8EAD3296ED5F1002CC48F /* saveTask */,
+				25D8EAD9296ED5F1002CC48F /* saveTask Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25D8EAD2296ED5F1002CC48F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25D8EAD8296ED5F1002CC48F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25D8EAE7296ED5F2002CC48F /* Preview Assets.xcassets in Resources */,
+				258E0B51297024050096A356 /* Localizable.strings in Resources */,
+				25D8EAE4296ED5F2002CC48F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25D8EAD6296ED5F1002CC48F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				258E0B5629702C050096A356 /* POP.swift in Sources */,
+				25D8EAF7296ED7F9002CC48F /* onTimeApp.swift in Sources */,
+				25D8EAFC296EEAAC002CC48F /* TaskList.swift in Sources */,
+				25D8EAFA296EDB2E002CC48F /* AddModule.swift in Sources */,
+				258E0B5829702CA80096A356 /* check.swift in Sources */,
+				258E0B5A29709AD50096A356 /* RealmManager.swift in Sources */,
+				25D8EAE2296ED5F1002CC48F /* ContentView.swift in Sources */,
+				258E0B4E297023200096A356 /* Home.swift in Sources */,
+				25D8EAE0296ED5F1002CC48F /* saveTaskApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25D8EADD296ED5F1002CC48F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25D8EAD9296ED5F1002CC48F /* saveTask Watch App */;
+			targetProxy = 25D8EADC296ED5F1002CC48F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		258E0B53297024050096A356 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				258E0B52297024050096A356 /* en */,
+				258E0B54297024060096A356 /* ar */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25D8EAE8296ED5F2002CC48F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		25D8EAE9296ED5F2002CC48F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		25D8EAEB296ED5F2002CC48F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"saveTask Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = YTTR5V58U3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = saveTask;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = appleAcadmey.saveTask.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		25D8EAEC296ED5F2002CC48F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"saveTask Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = YTTR5V58U3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = saveTask;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = appleAcadmey.saveTask.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		25D8EAEF296ED5F2002CC48F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YTTR5V58U3;
+				INFOPLIST_KEY_CFBundleDisplayName = saveTask;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = appleAcadmey.saveTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		25D8EAF0296ED5F2002CC48F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YTTR5V58U3;
+				INFOPLIST_KEY_CFBundleDisplayName = saveTask;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = appleAcadmey.saveTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25D8EAD1296ED5F1002CC48F /* Build configuration list for PBXProject "saveTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25D8EAE8296ED5F2002CC48F /* Debug */,
+				25D8EAE9296ED5F2002CC48F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25D8EAEA296ED5F2002CC48F /* Build configuration list for PBXNativeTarget "saveTask Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25D8EAEB296ED5F2002CC48F /* Debug */,
+				25D8EAEC296ED5F2002CC48F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25D8EAEE296ED5F2002CC48F /* Build configuration list for PBXNativeTarget "saveTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25D8EAEF296ED5F2002CC48F /* Debug */,
+				25D8EAF0296ED5F2002CC48F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		25D8EAF1296ED72E002CC48F /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		25D8EAF2296ED72E002CC48F /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 25D8EAF1296ED72E002CC48F /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		25D8EAF4296ED72E002CC48F /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 25D8EAF1296ED72E002CC48F /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 25D8EACE296ED5F1002CC48F /* Project object */;
+}

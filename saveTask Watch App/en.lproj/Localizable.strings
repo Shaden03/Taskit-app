@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  saveTask
+
+  Created by duaa mohammed on 12/01/2023.
+  
+*/
+"Title1"="One day at a time";
+"Title2"="This app has ears";
+"Title3"="Start Managing Your Tasks";
+"Subtitle1"="Organize your daily task easily";
+"SubTitle2"="This app helps you add a task with voice recognition";
+"Next" = "Next";
+"Start" = "Get started";
+"Recorde" = "Press the button to record or type a task";
+"MyTask" = "My Task";
+"Cancel" = "Test";
+"No" = "No Tasks";
+"Add" = "add task";
+"UnFinshed" = "You have unfinished tasks" ;
+"Finshed" = "Hooray!!🥳 no unfinished tasks" ;
+"Reminder" = "Friendly reminder" ; 
