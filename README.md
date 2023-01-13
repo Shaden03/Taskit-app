@@ -36,7 +36,7 @@ simple and quick 👏
 <br>
 
 * ## Technology Used
-<br>
+
 ### Realm By MongoDB
   
 For storing local data we've used   [**realm By MongoDB**](https://realm.io"realm  "Heading link")
