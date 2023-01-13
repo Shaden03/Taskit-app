@@ -73,11 +73,13 @@ https://user-images.githubusercontent.com/40645258/212423070-bfc43404-dca8-4bc5-
 
 ![](https://user-images.githubusercontent.com/40645258/212423874-10051bd8-5c57-421f-a053-f5e315f69277.png)
 <br>
+<br>
 
 * ### Main Pages
 https://user-images.githubusercontent.com/40645258/212424469-4346d568-ed2e-4b5d-ba45-a60721ee2151.mp4
 
 ![](https://user-images.githubusercontent.com/40645258/212424543-0e268f91-63dd-4a34-ae29-c459e4e514fb.png)
+<br>
 <br>
 
 * ### This App also Support Arabic
