@@ -96,7 +96,7 @@ https://user-images.githubusercontent.com/40645258/212425469-2b4f1b53-f13e-4321-
 
 > ## Download Our App 
 
-[**Click here**]
+Coming Soon
 
 <br>
 <br>
